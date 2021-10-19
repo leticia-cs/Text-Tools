@@ -1,0 +1,29 @@
+print('PPPP Y Y PPPP EEEE TTTTT')
+print('P  P Y Y P  P E      T')
+print('PPPP  Y  PPPP EEEE   T')
+print('P     Y  P    E      T')
+print('P     Y  P    EEEE   T')
+
+print('Bem-vinde a Pypet!')
+print('. . . . . . . . . . . . . . . . . ')
+
+r1 = input('Pressione Z e aperte Enter para começar ')
+
+if r1.lower().strip() == 'z':
+ print('Entrando...')
+
+else:
+    print('A letra Z, no teclado!')
+
+urso = {
+'nome':'Robearto',
+'fome': True,
+'peso':'13kg',
+'idade':'2',
+'foto':'ʕ•ᴥ•ʔ',
+}
+
+#intro
+print('Adivinha quem estava lhe esperando... ' + urso['nome'])
+print(urso['foto'])
+print(urso)
